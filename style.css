@@ -244,8 +244,8 @@
     border-radius: 10px;
     width: 100%;
     height: 100%;
+    box-shadow: 2px 2px 10px black;
 }
-
 
 .section-5 {
     padding: 2%;
@@ -458,7 +458,6 @@
         border-radius: 10px;
         width: 100%;
     }
-
     
     .section-5 {
         padding: 2%;
