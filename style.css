@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', 'Roboto', 'Sans-serif';
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f44e3f;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px;
+    font-weight: bold;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    text-shadow: 2px 2px 10px black;
+}
+.navbar.show {
+    transform: translateY(0);
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.section:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+.section:nth-child(even) {
+    background-color: white;
+    color: black;
+}
+
+.section-1{
+    background: linear-gradient(-80deg, #070321, #000000) ;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 10%; 
+}
+
+.section-1 > #text-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-1 > #text-content > h1{ 
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #dec400;
+    white-space: nowrap;
+}
+
+.section-1 > #text-content > p{ 
+    font-family: 'Montserrat', 'Sans-serif';
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.section-1 > #text-content > a{ 
+    font-family: 'Montserrat', 'Sans-serif';
+    margin: 30px 0;
+    font-size: 1.2rem;
+    padding: 20px;
+    background-color: #dec400;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+    align-self: center;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 10px black;
+}
+
+.section-1 > #text-content > a:hover{
+    transition: 0.3s;
+    scale: 1.05;
+}
+
+.section-1 > #text-content > img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-1 > img {
+    width: 45%;
+    rotate: 20deg;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5%;
+    padding-bottom: 10%;
+    font-family: 'Roboto', 'Sans-serif';
+    text-align: center;
+}
+
+.section-2 > .text-content-2 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2 > .text-content-2 > h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    color: #f44e3f;
+    text-shadow: 1px 1px 2px black;
+}
+
+.section-2 > .text-content-2 > P {
+    font-size: 1.1rem;
+    line-height: 25px;
+    margin-bottom: 10vh;
+    text-align: center;
+    font-family: 'Quicksand', 'Roboto', 'Sans-serif';
+}
+
+.section-2 > .text-content-2 > h2 {
+    text-align: center;
+    color: #f44e3f;
+    font-size: 1.9rem;
+    margin-bottom: 8vh;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+.section-2 > .text-content-2 > ul > li {
+    text-align: center;
+    list-style: none;
+    font-size: 1.1rem;
+    margin: 10px;
+}
+
+.section-2 > .text-content-2 > a {
+    font-size: 1.4rem;
+    padding: 18px;
+    background-color: #f44e3f;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 65%;
+    margin-top: 60px;
+    align-self: center;
+    box-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 2px black;
+}
+
+.section-2 > .text-content-2 > a:hover {
+    transition: 0.3s;
+    scale: 1.05;
+}
+
+
+.section-3 {
+    background: linear-gradient(-80deg, #070321, #000000) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10% 10vw;
+}
+
+.section-3 > img {
+    width: 35%;
+}
+
+.section-3 > .text-garantee {
+    padding: 3vw;
+    text-align: center;
+}
+
+.section-3 > .text-garantee > h1 {
+    margin-bottom: 50px;
+    font-size: 2.2rem;
+    color: #dec400;
+}
+
+.section-3 > .text-garantee > p {
+    margin-bottom: 50px;
+    font-size: 1.1rem;
+}
+
+.section-3 > .text-garantee > a{ 
+    font-family: 'Montserrat', 'Sans-serif';
+    margin: 30px 0;
+    font-size: 1.1rem;
+    padding: 15px;
+    background-color: #dec400;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+    align-self: center;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 10px black;
+}
+
+.section-3 > .text-garantee > a:hover{
+    transition: 0.3s;
+    scale: 1.5;
+}
+
+.section-4 {
+    padding: 2%;
+    font-size: 1rem;
+}
+
+.section-4 > p {
+    color: #f44e3f;
+    font-weight: 900;
+}
+
+
+@media (max-width: 600px) {
+    .navbar {
+        font-size: 3.4vw;
+    }
+    
+    .section-1{
+        background: linear-gradient(-80deg, #070321, #000000) ;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        padding: 15vh 0;
+    }
+    
+    .section-1 > #text-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .section-1 > #text-content > h1{ 
+        font-size: 3.8vw;
+        font-weight: 900;
+        color: #dec400;
+    }
+    
+    .section-1 > #text-content > p{ 
+        font-family: 'Montserrat', 'Sans-serif';
+        font-weight: 500;
+        font-size: 3.2vw;
+        margin: 8px 20px;
+    }
+    
+    .section-1 > #text-content > a{ 
+        font-family: 'Montserrat', 'Sans-serif';
+        margin: 20px 0;
+        font-size: 3.6vw;
+        padding: 15px;
+        background-color: #dec400;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        width: 80%;
+        align-self: center;
+        box-shadow: 2px 2px 2px black;
+        text-shadow: 2px 2px 10px black;
+    }
+    
+    .section-1 > #text-content > a:hover{
+        transition: 0.3s;
+        scale: 1.05;
+    }
+    
+    .section-1 > #text-content > img {
+        width: 80%;
+        margin: 10px auto;
+    }
+    
+    .section-1 > img {
+        width: 70vw;
+        rotate: 20deg;
+    }
+    
+    .section-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 5%;
+        padding-bottom: 10%;
+        font-family: 'Roboto', 'Sans-serif';
+        text-align: center;
+    }
+    
+    .section-2 > .text-content-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-2 > .text-content-2 > h1 {
+        text-align: center;
+        font-size: 6.9vw;
+        margin: 35px 0;
+        color: #f44e3f;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .section-2 > .text-content-2 > P {
+        font-size: 4vw;
+        line-height: 18px;
+        margin-bottom: 7vh;
+        text-align: justify;
+        font-family: 'Quicksand', 'Roboto', 'Sans-serif';
+    }
+    
+    .section-2 > .text-content-2 > h2 {
+        text-align: center;
+        color: #f44e3f;
+        font-size: 6vw;
+        margin-bottom: 6vh;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    
+    .section-2 > .text-content-2 > ul > li {
+        text-align: left;
+        list-style: none;
+        font-size: 3.4vw;
+        margin: 8px;
+    }
+    
+    .section-2 > .text-content-2 > a {
+        font-size: 4vw;
+        padding: 16px;
+        background-color: #f44e3f;
+        border-radius: 10px;
+        color: #ffffff;
+        cursor: pointer;
+        width: 90%;
+        margin-top: 20px;
+        align-self: center;
+        box-shadow: 1px 1px 5px black;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .section-2 > .text-content-2 > a:hover {
+        transition: 0.3s;
+        scale: 1.05;
+    }
+    
+    
+    .section-3 {
+        background: linear-gradient(-80deg, #070321, #000000) ;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 10% 5px;
+    }
+    
+    .section-3 > img {
+        margin: 5vh 0;
+        width: 60%;
+    }
+    
+    .section-3 > .text-garantee {
+        padding: 3vw;
+        text-align: center;
+    }
+    
+    .section-3 > .text-garantee > h1 {
+        margin-bottom: 35px;
+        font-size: 6vw;
+        color: #dec400;
+    }
+    
+    .section-3 > .text-garantee > p {
+        margin-bottom: 50px;
+        font-size: 4vw;
+        text-align: justify;
+    }
+    
+    .section-3 > .text-garantee > a{ 
+        font-family: 'Montserrat', 'Sans-serif';
+        margin: 30px 0  50px 0;
+        font-size: 4vw;
+        padding: 15px;
+        background-color: #dec400;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        width: 80%;
+        align-self: center;
+        box-shadow: 2px 2px 2px black;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .section-3 > .text-garantee > a:hover{
+        transition: 0.3s;
+        scale: 1.5;
+    }
+    
+    .section-4 {
+        padding: 2%;
+        font-size: 3vw;
+    }
+    
+    .section-4 > p {
+        color: #f44e3f;
+        font-weight: 900;
+    }
+}
