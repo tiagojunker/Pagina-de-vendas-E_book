@@ -3,7 +3,7 @@ let timeLeft = 30 * 60;
         const timerElement = document.getElementById("timer");
 
         window.addEventListener("scroll", () => {
-            if (window.scrollY > -1) {
+            if (window.scrollY > -20) {
                 navbar.classList.add("show");
             } else {
                 navbar.classList.remove("show");
