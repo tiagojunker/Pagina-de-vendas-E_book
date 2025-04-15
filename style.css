@@ -525,10 +525,11 @@
     }
 
     .section-4 {
-        padding-top: 50% ;
+        padding-top: 20% ;
     }
     
     .section-4 > h1 {
+        padding-top: 20% ;
         margin-bottom: 35px;
         font-size: 6vw;
         text-align: center;
