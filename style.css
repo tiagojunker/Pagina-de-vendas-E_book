@@ -519,7 +519,7 @@
 
 
 /* Reponsividade Smartphones*/
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .navbar {
         font-size: 3.4vw;
     }
