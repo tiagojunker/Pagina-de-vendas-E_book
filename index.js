@@ -1,4 +1,4 @@
-let timeLeft = 30 * 60;
+let timeLeft = 5 * 60;
         const navbar = document.getElementById("promo-navbar");
         const timerElement = document.getElementById("timer");
 
